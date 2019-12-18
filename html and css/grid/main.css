@@ -14,21 +14,21 @@ p {
 
 .page {
     display: grid;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    }
-
-.wrap-back {
-    display: grid;
     /*grid-template-columns: repeat(auto-fit, minmax(100%, 100%));
     grid-template-rows: repeat(auto-fit, minmax(100%, 100%));**/
     position: relative;
-    height: 200%;
-    width: 100%;
-    background: url(https://i.ibb.co/BsGWqFD/Cubes-1.jpg);
+    height: 1500px;
+    background: url(https://i.ibb.co/BsGWqFD/Cubes-1.jpg);}
 
-}
+/*.wrap-back {*/
+/*    display: grid;*/
+/*    !*grid-template-columns: repeat(auto-fit, minmax(100%, 100%));*/
+/*    grid-template-rows: repeat(auto-fit, minmax(100%, 100%));**!*/
+/*    position: relative;*/
+/*    height: 1400px;*/
+/*    background: url(https://i.ibb.co/BsGWqFD/Cubes-1.jpg);*/
+
+/*}*/
 
 .block{
     width: 40%;

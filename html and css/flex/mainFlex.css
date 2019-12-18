@@ -1,8 +1,6 @@
-
 *{
     margin :0;
     padding: 0;
-    /* border: 1px solid firebrick;*/ 
 }
 
 p {
@@ -12,128 +10,85 @@ p {
 }
 
 .page {
-
-    margin: auto;
-    height: 100%;
-    width: 100%;
-}
-
-.wrap-back {
-
-    /*grid-template-columns: repeat(auto-fit, minmax(100%, 100%));
-    grid-template-rows: repeat(auto-fit, minmax(100%, 100%));**/
-    position: relative;
-    height: 100vh;
-    width: 100vw;
     background: url(https://i.ibb.co/BsGWqFD/Cubes-1.jpg);
     margin: auto;
+    background-size: cover;
+    height: 1400px;
 
 }
-
 .block{
     position: relative;
     width: 40vw;
     display: flex;
     flex-wrap: wrap;
-
-    left: 30vw;
-    top: 20vh;
-    /*grid-template-columns: repeat(auto-fit, minmax(200px, 200px));*/
-    /*grid-template-rows: repeat(auto-fit, minmax(200px, 200px));*/
+    margin: 0 auto;
+    top: 15vh;
 
 }
-
 .block-first{
+    position: relative;
     background-color:#06b3db;
     height: 200px;
     min-width: 200px;
 }
-
-.block-first-wrap{  /*ВЫРАВНИТЬ КАРТИНКИ!!!*/
-    position: relative;
-    top:10%;
-
-}
-
 .block-first__img{
-    position: relative;
-    left: 25%;
+    position: absolute;
+    margin: auto;
+    left: 0; top:0; right: 0; bottom:20%;
 }
-
 .block-first__text{
     position: absolute;
-    left: 12%;
-    bottom: -35%;
+    left: 11%;
+    bottom: 15%;
 }
-
 .block-second {
+    position: relative;
     background-color: #4ed486;
     height: 200px;
     min-width: 200px;
 }
-
-.block-second-wrap{
-    position: relative;
-    top:10%;
-
-}
-
 .block-second__img{
-    position: relative;
-    left: 25%;
+    position: absolute;
+    margin: auto;
+    left: 0; top:0; right: 0; bottom:20%;
 }
-
 .block-second__text{
     position: absolute;
-    bottom: -42%;
-    left: 21%;
+    left: 17%;
+    bottom: 15%;
 }
-
 .block-third{
+    position: relative;
     background-color:#6139f6;
     height: 200px;
     min-width: 200px;
 }
-
-.block-third-wrap{
-    position: relative;
-    top:10%;
-}
-
 .block-third__img{
-    position: relative;
-    left: 25%;
+    position: absolute;
+    margin: auto;
+    left: 0; top:0; right: 0; bottom:20%;
 }
-
 .block-third__text{
     position: absolute;
-    left: 11%;
-    bottom: -35%;
+    left: 10%;
+    bottom: 15%;
 }
-
 .block-fourth{
+    position: relative;
     background-color:#e3b63d;
     height: 200px;
     min-width: 200px;
 }
-
-.block-fourth-wrap{
-    position: relative;
-    top:10%;
-
-
-}
 .block-fourth__img{
-    position: relative;
-    left: 25%;
+    position: absolute;
+    margin: auto;
+    left: 0; top:0; right: 0; bottom:20%;
 }
-
 .block-fourth__text{
     position: absolute;
     left: 13%;
-    bottom: -35%;
+    bottom: 15%;
 }
-
 .block-fifth{
     background-color:#b43255;
     position: relative;
@@ -142,11 +97,8 @@ p {
     min-width: 200px;
 }
 
-.block-fifth-wrap{
-    position: relative;
-}
-
 .block-fifth-top{
+    position: relative;
     background-color: #dc3d66;
     z-index: 1;
     padding-bottom: 5%;
@@ -239,27 +191,22 @@ p {
 
 
 .block-sixth{
+    position: relative;
     background-color:#bd54cd;
     height: 200px;
     min-width: 200px;
 }
 
-.block-sixth-wrap {
-    position: relative;
-    top:10%;
-}
 .block-sixth__img{
-    position: relative;
-    left: 25%;
+    position: absolute;
+    margin: auto;
+    left: 0; top:0; right: 0; bottom:20%;
 }
 
 .block-sixth__text{
     position: absolute;
-    left: 15%;
-    bottom: -35%;
+    left: 13%;
+    bottom: 15%;
 }
 
 
-.shadow{
-    box-shadow: 0 15px 30px 10px rgba(0, 0, 0, .5);
-}
