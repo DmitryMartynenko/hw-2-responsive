@@ -1,10 +1,7 @@
-
 *{
     margin :0;
     padding: 0;
-   /* border: 1px solid firebrick;*/
 }
-
 
 p {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;;
@@ -14,42 +11,27 @@ p {
 
 .page {
     display: grid;
-    /*grid-template-columns: repeat(auto-fit, minmax(100%, 100%));
-    grid-template-rows: repeat(auto-fit, minmax(100%, 100%));**/
     position: relative;
     height: 1500px;
-    background: url(https://i.ibb.co/BsGWqFD/Cubes-1.jpg);}
-
-/*.wrap-back {*/
-/*    display: grid;*/
-/*    !*grid-template-columns: repeat(auto-fit, minmax(100%, 100%));*/
-/*    grid-template-rows: repeat(auto-fit, minmax(100%, 100%));**!*/
-/*    position: relative;*/
-/*    height: 1400px;*/
-/*    background: url(https://i.ibb.co/BsGWqFD/Cubes-1.jpg);*/
-
-/*}*/
+    background: url(https://i.ibb.co/BsGWqFD/Cubes-1.jpg);
+}
 
 .block{
     width: 40%;
     display: grid;
     margin: auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
-    /*grid-template-rows: repeat(auto-fit, minmax(200px, 200px));*/
-
 }
 
 .block-first{
     background-color:#06b3db;
     height: 200px;
     width: 200px;
-
 }
 
-.block-first-wrap{  /*ВЫРАВНИТЬ КАРТИНКИ!!!*/
+.block-first-wrap{
     position: relative;
     top:10%;
-
 }
 
 .block-first__img{
@@ -117,8 +99,6 @@ p {
 .block-fourth-wrap{
     position: relative;
     top:10%;
-
-
 }
 .block-fourth__img{
     position: relative;
@@ -172,8 +152,8 @@ p {
 .block-fifth-bottom-small-block-first__img{
     position: relative;
     left: 10%;
-
 }
+
 .block-fifth-bottom-small-block-first__bottom__text{
     position: relative;
     left: 14%;
@@ -254,9 +234,4 @@ p {
     position: absolute;
     left: 15%;
     bottom: -35%;
-}
-
-
-.shadow{
-    box-shadow: 0 15px 30px 10px rgba(0, 0, 0, .5);
 }
