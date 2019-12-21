@@ -1,0 +1,227 @@
+*{
+    margin :0;
+    padding: 0;
+}
+p {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: white;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.page {
+    background-image: url(https://i.ibb.co/BsGWqFD/Cubes-1.jpg);
+    margin: auto;
+    background-size: cover;
+    height: 1400px;
+}
+.block{
+    position: relative;
+    width: 40vw;
+    min-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    top: 15vh;
+}
+.block-item {
+    position: relative;
+    height: 200px;
+    min-width: 200px;
+}
+.block-first{
+    height: 100%;
+    background-color:#06b3db;
+}
+.block-first__img{
+    position: absolute;
+    margin: auto;
+    left: 0; top:0; right: 0; bottom:20%;
+}
+.block-first__text{
+    position: absolute;
+    left: 11%;
+    bottom: 15%;
+}
+.block-second {
+    height: 100%;
+    background-color: #4ed486;
+}
+.block-second__img{
+    position: absolute;
+    margin: auto;
+    left: 0; top:0; right: 0; bottom:20%;
+}
+.block-second__text{
+    position: absolute;
+    left: 17%;
+    bottom: 15%;
+}
+.block-third{
+    height: 100%;
+    background-color:#6139f6;
+}
+.block-third__img{
+    position: absolute;
+    margin: auto;
+    left: 0; top:0; right: 0; bottom:20%;
+}
+.block-third__text{
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+}
+.block-fourth{
+    height: 100%;
+    background-color:#e3b63d;
+}
+.block-fourth__img{
+    position: absolute;
+    margin: auto;
+    left: 0; top:0; right: 0; bottom:20%;
+}
+.block-fourth__text{
+    position: absolute;
+    left: 13%;
+    bottom: 15%;
+}
+.block-fifth{
+    height:100%;
+    background-color:#b43255;
+    display: grid;
+}
+.block-fifth-top{
+    position: relative;
+    background-color: #dc3d66;
+    z-index: 1;
+    padding-bottom: 5%;
+}
+.block-fifth__top__img{
+    position: relative;
+    left: 33%;
+    padding-top: 10%;
+}
+.block-fifth-bottom{
+    position: relative;
+    top:5%;
+    display: flex;
+}
+.small-block-item {
+    margin: 0 auto;
+}
+.small-block-first__top__text{
+    position: relative;
+    font-size: 14px;
+}
+.small-block-first__img{
+    position: relative;
+    left: 10%;
+}
+.small-block-first__bottom__text{
+    position: relative;
+    left: 14%;
+    font-size: 16px;
+}
+.small-block-second__top__text{
+    position: relative;
+    font-size: 14px;
+}
+.small-block-second__img{
+    position: relative;
+    left: 8%;
+}
+.small-block-second__bottom__text{
+    position: relative;
+    left: 14%;
+    font-size: 14px;
+}
+.small-block-third__top__text{
+    position: relative;
+    font-size: 14px;
+}
+.small-block-third__img{
+    position: relative;
+    left: 10%;
+}
+.small-block-third__bottom__text{
+    position: relative;
+    left: 14%;
+    font-size: 14px;
+}
+.small-block-fourth__top__text{
+    position: relative;
+    font-size: 14px;
+}
+.small-block-fourth__img{
+    position: relative;
+    left: 10%;
+}
+.small-block-fourth__bottom__text{
+    position: relative;
+    left: 14%;
+    font-size: 14px;
+}
+.block-sixth{
+    width:100%;
+    height: 100%;
+    background-color:#bd54cd;
+
+}
+.block-sixth__img{
+    position: absolute;
+    margin: auto;
+    left: 0; top:0; right: 0; bottom:20%;
+}
+.block-sixth__text{
+    position: absolute;
+    left: 13%;
+    bottom: 15%;
+}
+@media (max-width: 2560px) {
+    body{
+        overflow: hidden;}
+}
+@media (max-width: 1500px) {
+    body{
+        overflow: visible;}
+    .page {
+        height: 900px;}
+    .block{
+        width: 50vw;
+    }
+}
+@media (max-width: 1200px) {
+    .block{
+        margin: auto;
+        width: 600px;
+    }
+}
+@media (max-width: 1000px) {
+    body{
+        overflow: visible;}
+    .page {
+        height: 1500px;}
+    .block{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .block{
+        width: 600px;
+    }
+}
+@media (max-width: 630px) {
+    .block{
+        width: 400px;
+    }
+}
+@media (max-width: 430px) {
+    .block{
+        width: 200px;
+    }
+}
+
